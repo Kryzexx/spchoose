@@ -1,3 +1,7 @@
+* {
+    font-family: 'BPG Nino Mtavruli';
+}
+
 body {
     background-color: #121212;
 }
@@ -127,6 +131,7 @@ body {
     color: #FFFFFF;
 }
 
+/* */
 @media only screen and (max-width: 1842px) {
     .bg-spchoose {
         width: 80%;
