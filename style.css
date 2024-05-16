@@ -120,7 +120,7 @@ body {
     position: relative;
     right: 40px;
     cursor: pointer;
-    display:none;
+    opacity: 0;
 }
 
 .select-btn span {
