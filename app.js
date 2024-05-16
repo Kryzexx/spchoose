@@ -9,10 +9,7 @@ function selectSpawn(spawnid) {
 
     const choice = document.getElementById(spawnid)
     choice.style.border = "2px solid red"
-    
-    btn.addEventListener('click', () => {
-        cef.emit('pwd:choice', spawnid) // <<< აქ აგზავნი 4 ტიპის სტრინგს მაგ: home-choose < რომელიც მონიშინულია
-    })
+    cef.emit('pwd:choice', spawnid) // <<< აქ აგზავნი 4 ტიპის სტრინგს მაგ: home-choose < რომელიც მონიშინულია
 }
 
 cef.on('pwd:result', (resultmsg) => {
